@@ -148,13 +148,13 @@ function main(x,y){
             alert("X WON CONGRATULATIONS!!!");
         }, 100)
     }
-    if(topleft+topp+topright == 30|| left+middle+right == 30|| bottomleft+bottom+bottomright == 30| topleft+left+bottomleft == 30|| topp+middle+bottom == 30| topright+right+bottomright == 30|| topleft+middle+bottomright == 30|| topright+middle+bottomleft == 30){
+    else if(topleft+topp+topright == 30|| left+middle+right == 30|| bottomleft+bottom+bottomright == 30| topleft+left+bottomleft == 30|| topp+middle+bottom == 30| topright+right+bottomright == 30|| topleft+middle+bottomright == 30|| topright+middle+bottomleft == 30){
         setTimeout(() => {
             alert("O WON CONGRATULATIONS!!!");
         }, 100)
         
     }    
-    if(topleft != 0 && topp != 0 && topright != 0 && left != 0 && middle != 0 && right != 0 && bottomleft != 0 && bottom != 0 && bottomright != 0){
+    else if(topleft != 0 && topp != 0 && topright != 0 && left != 0 && middle != 0 && right != 0 && bottomleft != 0 && bottom != 0 && bottomright != 0){
         setTimeout(() => {
             alert("IT'S A DRAW")
         }, 100)
