@@ -154,7 +154,7 @@ function main(x,y){
         }, 100)
         
     }    
-    else if(topleft != 0 && topleft < 3 && topp != 0 && topp < 3 && topright != 0 && topright < 3 && left != 0 && left < 3 && middle != 0 && middle < 3 && right != 0 && right < 3 && bottomleft != 0 && bottomleft < 3 && bottom != 0 && bottom < 3 && bottomright != 0 && bottomright < 3){
+    else{
         setTimeout(() => {
             alert("IT'S A DRAW")
         }, 100)
