@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <style>
+    table{
+      margin: 0 auto;
+      background-color: beige;
+      border-style: double;
+    }
+    #res{
+      margin: 0 auto;
+      display: block;
+      width: 70px;
+      height: 30px;
+      text-align: center;
+      background-color: blanchedalmond;
+    }
+  </style>
+</head>
 <body>
-  
-  
-
-
-
-
-
-
-<table style="border-collapse: collapse;">
+<table style="border-collapse: collapse; ">
   <tr>
     <td><button onclick="main(0,0)" id="1" style="font-size:45px; width: 150px; height: 150px;"></button></td>
     <td><button onclick="main(0,1)" id="2" style="font-size:45px; width: 150px; height: 150px;"></button></td>
@@ -27,7 +36,7 @@
   </tr>
 </table>
 
-<button onclick="restart()">Restart</button>
+<button onclick="restart()" id="res">Restart</button>
 
 
 
